@@ -2,8 +2,6 @@ from flask import Flask, request, current_app, abort
 import git
 import ansible_runner
 import os
-import requests
-import json
 import logging
 import slack_notifier.slack as slack
 import slack_notifier.github as github

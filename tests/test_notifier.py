@@ -1,7 +1,6 @@
 from unittest.mock import patch, Mock
 import pytest
 import slack_notifier.notifier as notifier
-from pathlib import Path
 
 notify_with_vlan_change = {
     "commits": [{"modified": ["group_vars/all/vlans.yaml"]}],
